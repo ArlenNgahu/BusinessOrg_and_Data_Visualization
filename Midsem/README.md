@@ -41,17 +41,14 @@ This dataset allowed me to explore **customer behaviour, regional sales performa
 
 ## Dataset Source
 
-*(Insert dataset source screenshot here)*
+![alt text](screenshots/image.png)
 
 ```
 screenshots/dataset_source.png
 ```
 
-![Dataset Source](screenshots/dataset_source.png)
 
-
-
-# 🧹 Data Preparation (Power Query)
+#  Data Preparation (Power Query)
 
 Before building the dashboard, I first cleaned and prepared the dataset using **Power Query Editor in Power BI**.
 
@@ -75,31 +72,48 @@ These steps helped ensure that the dataset was **consistent, accurate, and ready
 
 ## Power Query Editor
 
-*(Insert Power Query Editor screenshot here)*
+![alt text](screenshots/image-1.png)
+![alt text](screenshots/image-2.png)
+![alt text](screenshots/image-3.png)
 
 ```
 screenshots/powerquery_editor.png
 ```
-
-![Power Query Editor](screenshots/powerquery_editor.png)
-
 
 
 ## Applied Transformations
 
 Power BI keeps track of all cleaning steps in the **Applied Steps panel**, which allows transformations to be easily reproduced and audited.
 
-*(Insert applied steps screenshot)*
+![alt text](screenshots/image-4.png)
+![alt text](screenshots/image-5.png)
+![alt text](screenshots/image-6.png)
+![alt text](screenshots/image-7.png)
+![alt text](screenshots/image-8.png)
+![alt text](screenshots/image-9.png)
+![alt text](screenshots/image-10.png)
+![alt text](screenshots/image-11.png)
+![alt text](screenshots/image-12.png)
+![alt text](screenshots/image-13.png)
+![alt text](screenshots/image-14.png)
+![alt text](screenshots/image-15.png)
+![alt text](screenshots/image-16.png)
+![alt text](screenshots/image-17.png)
+![alt text](screenshots/image-18.png)
+![alt text](screenshots/image-19.png)
+![alt text](screenshots/image-20.png)
+![alt text](screenshots/image-21.png)
+![alt text](screenshots/image-22.png)
+
 
 ```
 screenshots/applied_steps.png
 ```
 
-![Power Query Applied Steps](screenshots/applied_steps.png)
 
----
 
-# 🌍 Geographic Key Engineering
+
+#  Geographic Key Engineering
 
 While preparing the data, I noticed that the dataset did **not include a unique identifier for geographic regions**.
 
@@ -116,37 +130,45 @@ Using these fields, I created a **composite key** and then generated a surrogate
 
 This ensured that each geographic location could be uniquely identified and properly linked within the model.
 
----
+
 
 ## RegionID Creation
 
-*(Insert screenshot of RegionID creation)*
+![alt text](screenshots/image-23.png)
 
 ```
 screenshots/region_key_creation.png
 ```
 
-![Region Key Creation](screenshots/region_key_creation.png)
 
----
 
-# 🔗 Query Dependencies
+
+
+#  Query Dependencies
 
 To better understand how my queries were structured, I used **Power BI's Query Dependencies view**.
 
 This view helped me confirm that my dimension tables were properly created before being used by the **FactSales table**.
 
-*(Insert dependency diagram screenshot)*
+![alt text](screenshots/image-24.png)
+![alt text](screenshots/image-25.png)
+![alt text](screenshots/image-26.png)
+![alt text](screenshots/image-27.png)
+![alt text](screenshots/image-28.png)
+![alt text](screenshots/image-29.png)
+![alt text](screenshots/image-30.png)
+![alt text](screenshots/image-31.png)
+![alt text](screenshots/image-32.png)
+
 
 ```
 screenshots/query_dependencies.png
 ```
 
-![Query Dependencies](screenshots/query_dependencies.png)
 
----
 
-# 🏗 Data Modelling — Star Schema
+
+#  Data Modelling — Star Schema
 
 After cleaning the data, I designed a **star schema**, which is a common data modelling technique used in data warehouses and BI systems.
 
@@ -158,7 +180,7 @@ A star schema improves:
 
 My model contains one **fact table** connected to several **dimension tables**.
 
----
+
 
 ## Fact Table
 
@@ -174,7 +196,7 @@ This table contains the **main transactional data**, including:
 
 Fact tables store the **measurable business metrics** that are analyzed in dashboards.
 
----
+
 
 ## Dimension Tables
 
@@ -189,21 +211,25 @@ I created several dimension tables to describe the context of the sales data.
 
 Dimension tables provide **descriptive attributes used for filtering and grouping data**.
 
----
 
 ## Star Schema Model
 
-*(Insert model view screenshot)*
+![alt text](screenshots/image-33.png)
+![alt text](screenshots/image-34.png)
+![alt text](screenshots/image-35.png)
+![alt text](screenshots/image-36.png)
+![alt text](screenshots/image-37.png)
+![alt text](screenshots/image-38.png)
+![alt text](screenshots/image-39.png)
+
 
 ```
 screenshots/star_schema_model.png
 ```
 
-![Star Schema Model](screenshots/star_schema_model.png)
 
----
 
-# 📈 Dashboard Development
+#  Dashboard Development
 
 After completing the data model, I created an **interactive Power BI dashboard** to visualize the insights contained in the dataset.
 
@@ -214,9 +240,9 @@ My goal was to design a dashboard that could help users quickly understand:
 * product trends
 * customer segment behaviour
 
----
 
-# 📊 Dashboard Visualizations
+
+#  Dashboard Visualizations
 
 The dashboard includes several visuals:
 
@@ -229,14 +255,14 @@ To summarize the overall performance, I created KPI cards showing:
 * Total Quantity Sold
 * Average Sales
 
----
+
 
 ### Sales Trend Over Time
 
 I created a **line chart** showing how sales change over time.
 This allows users to easily identify **seasonal trends and growth patterns**.
 
----
+
 
 ### Sales by Product Category
 
@@ -258,33 +284,36 @@ This makes it easier to identify **strong and weak markets**.
 
 A visual was also created to show how sales are distributed across different **customer segments**.
 
----
+
 
 # 📊 Final Dashboard
 
-*(Insert full dashboard screenshot)*
+![alt text](screenshots/image-40.png)
+![alt text](screenshots/image-41.png)
+![alt text](screenshots/image-42.png)
+
 
 ```
 screenshots/dashboard_overview.png
 ```
 
-![Power BI Dashboard](screenshots/dashboard_overview.png)
 
----
 
-# 🔍 KPI Overview
 
-*(Insert KPI screenshot)*
+
+#  KPI Overview
+
+![alt text](screenshots/image-43.png)
 
 ```
 screenshots/dashboard_kpis.png
 ```
 
-![Dashboard KPIs](screenshots/dashboard_kpis.png)
 
----
 
-# ☁️ Deployment (Power BI Service)
+
+
+#  Deployment (Power BI Service)
 
 After finishing the report, I published it to **Power BI Service** so that it could be accessed online.
 
@@ -294,29 +323,31 @@ Publishing the dashboard allows users to:
 * share dashboards with others
 * integrate analytics into web platforms
 
----
+
+
+![alt text](screenshots/image-44.png)
+![alt text](screenshots/image-45.png)
 
 ## Published Dashboard
 
-*(Insert Power BI service screenshot)*
-
+![alt text](screenshots/image-46.png)
+![alt text](screenshots/image-47.png)
+![alt text](screenshots/image-48.png)
 ```
 screenshots/powerbi_service_dashboard.png
 ```
 
-![Power BI Service Dashboard](screenshots/powerbi_service_dashboard.png)
 
----
 
-# 🌐 Live Dashboard
+
+#  Live Dashboard
 
 You can view the interactive dashboard here:
 
 https://app.powerbi.com/view?r=eyJrIjoiOWU4ZjZiZTAtODUyZS00NDc5LWJlOTItMGY0ZDFhYmQwYTU5IiwidCI6IjE2ZDgzZWU2LTI1NGEtNDY5ZC1hNmNjLTU0ZTJjYTIzMTNlNyIsImMiOjh9
 
----
 
-# 📁 Project Structure
+#  Project Structure
 
 ```
 PowerBI-Sales-Analytics-Dashboard
@@ -337,9 +368,9 @@ PowerBI-Sales-Analytics-Dashboard
     └── powerbi_service_dashboard.png
 ```
 
----
 
-# 🧠 Skills Demonstrated
+
+#  Skills Demonstrated
 
 Through this project, I demonstrated several Business Intelligence skills:
 
@@ -351,9 +382,8 @@ Through this project, I demonstrated several Business Intelligence skills:
 * Interactive filtering
 * Cloud publishing using Power BI Service
 
----
 
-# 📚 What I Learned
+#  What I Learned
 
 Through this project, I gained practical experience in transforming raw data into **structured analytical insights**.
 
@@ -363,7 +393,7 @@ These techniques are widely used in **modern business intelligence and analytics
 
 ---
 
-# 👤 Author
+#  Author
 
 **Arlen Wambugu**
 
