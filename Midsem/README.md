@@ -41,10 +41,10 @@ This dataset allowed me to explore **customer behaviour, regional sales performa
 
 ## Dataset Source
 
-![alt text](screenshots/image.png)
+![alt text](image.png)
 
 ```
-screenshots/dataset_source.png
+dataset_source.png
 ```
 
 
@@ -72,12 +72,12 @@ These steps helped ensure that the dataset was **consistent, accurate, and ready
 
 ## Power Query Editor
 
-![alt text](screenshots/image-1.png)
-![alt text](screenshots/image-2.png)
-![alt text](screenshots/image-3.png)
+![alt text](image-1.png)
+![alt text](image-2.png)
+![alt text](image-3.png)
 
 ```
-screenshots/powerquery_editor.png
+powerquery_editor.png
 ```
 
 
@@ -85,29 +85,29 @@ screenshots/powerquery_editor.png
 
 Power BI keeps track of all cleaning steps in the **Applied Steps panel**, which allows transformations to be easily reproduced and audited.
 
-![alt text](screenshots/image-4.png)
-![alt text](screenshots/image-5.png)
-![alt text](screenshots/image-6.png)
-![alt text](screenshots/image-7.png)
-![alt text](screenshots/image-8.png)
-![alt text](screenshots/image-9.png)
-![alt text](screenshots/image-10.png)
-![alt text](screenshots/image-11.png)
-![alt text](screenshots/image-12.png)
-![alt text](screenshots/image-13.png)
-![alt text](screenshots/image-14.png)
-![alt text](screenshots/image-15.png)
-![alt text](screenshots/image-16.png)
-![alt text](screenshots/image-17.png)
-![alt text](screenshots/image-18.png)
-![alt text](screenshots/image-19.png)
-![alt text](screenshots/image-20.png)
-![alt text](screenshots/image-21.png)
-![alt text](screenshots/image-22.png)
+![alt text](image-4.png)
+![alt text](image-5.png)
+![alt text](image-6.png)
+![alt text](image-7.png)
+![alt text](image-8.png)
+![alt text](image-9.png)
+![alt text](image-10.png)
+![alt text](image-11.png)
+![alt text](image-12.png)
+![alt text](image-13.png)
+![alt text](image-14.png)
+![alt text](image-15.png)
+![alt text](image-16.png)
+![alt text](image-17.png)
+![alt text](image-18.png)
+![alt text](image-19.png)
+![alt text](image-20.png)
+![alt text](image-21.png)
+![alt text](image-22.png)
 
 
 ```
-screenshots/applied_steps.png
+applied_steps.png
 ```
 
 
@@ -134,10 +134,10 @@ This ensured that each geographic location could be uniquely identified and prop
 
 ## RegionID Creation
 
-![alt text](screenshots/image-23.png)
+![alt text](image-23.png)
 
 ```
-screenshots/region_key_creation.png
+region_key_creation.png
 ```
 
 
@@ -150,19 +150,19 @@ To better understand how my queries were structured, I used **Power BI's Query D
 
 This view helped me confirm that my dimension tables were properly created before being used by the **FactSales table**.
 
-![alt text](screenshots/image-24.png)
-![alt text](screenshots/image-25.png)
-![alt text](screenshots/image-26.png)
-![alt text](screenshots/image-27.png)
-![alt text](screenshots/image-28.png)
-![alt text](screenshots/image-29.png)
-![alt text](screenshots/image-30.png)
-![alt text](screenshots/image-31.png)
-![alt text](screenshots/image-32.png)
+![alt text](image-24.png)
+![alt text](image-25.png)
+![alt text](image-26.png)
+![alt text](image-27.png)
+![alt text](image-28.png)
+![alt text](image-29.png)
+![alt text](image-30.png)
+![alt text](image-31.png)
+![alt text](image-32.png)
 
 
 ```
-screenshots/query_dependencies.png
+query_dependencies.png
 ```
 
 
@@ -214,17 +214,17 @@ Dimension tables provide **descriptive attributes used for filtering and groupin
 
 ## Star Schema Model
 
-![alt text](screenshots/image-33.png)
-![alt text](screenshots/image-34.png)
-![alt text](screenshots/image-35.png)
-![alt text](screenshots/image-36.png)
-![alt text](screenshots/image-37.png)
-![alt text](screenshots/image-38.png)
-![alt text](screenshots/image-39.png)
+![alt text](image-33.png)
+![alt text](image-34.png)
+![alt text](image-35.png)
+![alt text](image-36.png)
+![alt text](image-37.png)
+![alt text](image-38.png)
+![alt text](image-39.png)
 
 
 ```
-screenshots/star_schema_model.png
+star_schema_model.png
 ```
 
 
@@ -288,13 +288,13 @@ A visual was also created to show how sales are distributed across different **c
 
 # 📊 Final Dashboard
 
-![alt text](screenshots/image-40.png)
-![alt text](screenshots/image-41.png)
-![alt text](screenshots/image-42.png)
+![alt text](image-40.png)
+![alt text](image-41.png)
+![alt text](image-42.png)
 
 
 ```
-screenshots/dashboard_overview.png
+dashboard_overview.png
 ```
 
 
@@ -303,10 +303,10 @@ screenshots/dashboard_overview.png
 
 #  KPI Overview
 
-![alt text](screenshots/image-43.png)
+![alt text](image-43.png)
 
 ```
-screenshots/dashboard_kpis.png
+dashboard_kpis.png
 ```
 
 
@@ -325,16 +325,16 @@ Publishing the dashboard allows users to:
 
 
 
-![alt text](screenshots/image-44.png)
-![alt text](screenshots/image-45.png)
+![alt text](image-44.png)
+![alt text](image-45.png)
 
 ## Published Dashboard
 
-![alt text](screenshots/image-46.png)
-![alt text](screenshots/image-47.png)
-![alt text](screenshots/image-48.png)
+![alt text](image-46.png)
+![alt text](image-47.png)
+![alt text](image-48.png)
 ```
-screenshots/powerbi_service_dashboard.png
+powerbi_service_dashboard.png
 ```
 
 
